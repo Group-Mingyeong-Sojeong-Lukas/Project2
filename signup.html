@@ -18,21 +18,19 @@
 <span> <a href= "signup.html"> Sign Up</a></span>
 </nav>
    <div class="container">
-   <form name="f" method="post" action = "#null" autocomplete="on">   
+   <form name="f" onsubmit="return validate();" action="index.html" method=post autocomplete="on">   
       <div class="form-area">
-         <!-- address,  -->
-         <ul class="top">
+	  <ul class="top">
 			<li>
 				<span>
 					<label for = "name"></label>
-                    <input type="text" id="name" class="input-text" placeholder="Name" maxlength="20">
+                    <input type="text" name="name" class="input-text" placeholder="Name" maxlength="20">
                 </span>
-			</li>
-		
+			</li> 
 			<li>
 				<span>
                     <label for = "id"></label>
-                    <input type="text" id="id" class="input-text" placeholder="Id" maxlength="20">
+                    <input type="text" name="id" class="input-text" placeholder="Id" maxlength="20">
 				</span>
             </li>
 		
@@ -67,7 +65,7 @@
 	</div>   
       
       <div class="button-area">
-         <a href="#" class="btn-type-01" onclick="validate()">submit</a>
+		 <input type="submit" class="btn-type-01" value="Submit">submit</a>
       </div>
       </form>
    </div>
