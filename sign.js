@@ -1,3 +1,6 @@
+function welcome(){
+	alert("Welcome!");
+}
 function validate(){
 	if(f.name.value == ""){
 	      alert("please Enter your name");   
@@ -27,4 +30,5 @@ function validate(){
 		alert('The passwords are different from each other')
 		return false;
 	}
+	welcome();
 }
