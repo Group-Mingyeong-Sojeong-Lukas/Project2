@@ -1,14 +1,8 @@
 function validate(){
-	
-	if(f.first_name.value == ""){
-	      alert("please Enter your First_name");   
+	if(f.name.value == ""){
+	      alert("please Enter your name");   
 	      return false;
 	   }
-	if(f.last_name.value == ""){
-	      alert("please Enter your Last_name");   
-	      return false;
-	   }
-	
 	if(f.id.value == ""){
 		alert("please Enter your ID");   
 		return false;
@@ -17,12 +11,10 @@ function validate(){
 		alert("please Enter your Password");
 		return false;
 	}
-	
 	if(f.chpassword.value == ""){
 		alert("please Enter your Check Password");
 		return false;
 	}
-	
    	if(f.emailad.value == ""){
       		alert("please Enter your Email address");
       		return false;
