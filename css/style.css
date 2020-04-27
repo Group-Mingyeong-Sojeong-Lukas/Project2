@@ -21,11 +21,11 @@ div{
 h1{
 	position: relative;
 	text-align: center;
+	font-size: 1.5em;
 	margin-top: 5px;
 	margin-bottom: 20px;
 }
 img{
-	position: relative;
 	vertical-align: center;
 	margin-top: 10px;
 	margin-right: auto;
