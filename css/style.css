@@ -1,121 +1,147 @@
 @media screen and (min-width: 650px){
 nav{
-	text-align: center;
-   	background-color: #18184e;
-   	margin: 0 auto;
+   text-align: center;
+   background-color: #18184e;
+   margin: 0 auto;
+   margin-bottom: 40px;
 }
 span{
-	display: inline-block;
-	text-align: center;
-	position: relative;
-	padding: 10px 50px;
-	margin: 0 auto;
-	
+   display: inline-block;
+   text-align: center;
+   position: relative;
+   padding: 10px 50px;
+   margin: 0 auto;
+   
 }
-a{
-	color: #FFF;
+.n a{
+   color: #FFF;
 }
 
 div{
-	vertical-align: top;
+   vertical-align: top;
 }
 h1{
-	position: relative;
-	text-align: center;
-	font-size: 1.5em;
-	margin-top: 5px;
-	margin-bottom: 10px;
+   position: relative;
+   text-align: center;
+   margin-bottom: 15px;
 }
 img{
-	vertical-align: center;
-	margin-top: 10px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 10px;
-	display: block;
-}
-h2{
-	position: relative;
-	text-align: center;
-	margin-top: 20px;
-	
+   position: relative;
+   vertical-align: center;
+   margin-top: 10px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 10px;
+   display: block;
 }
 p{
-	text-align: center;
+   text-align: center;
 }
 
 .h{
-	background-image: url(https://23fb88ad5ca22a1b4d32-e1951aed44f4258f5fd1721b94cf0277.ssl.cf5.rackcdn.com/IL077-ipad.jpg);
-	height: 110vh;
-	background-size: cover;
+   background-image: url(https://23fb88ad5ca22a1b4d32-e1951aed44f4258f5fd1721b94cf0277.ssl.cf5.rackcdn.com/IL077-ipad.jpg);
+   height: 110vh;
+   background-size: cover;
 }
 .a{
-	height: 100%;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.4);                                                                 
-	z-index:1;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.4);                                                                 
+   z-index:1;
 }
 .b{
-	height: 100%;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);                                                                 
-	z-index:-5;
-	color: white;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.5);                                                                 
+   z-index:-5;
+   color: white;
 }
 div.container {
-	margin: 0 auto 0;
+   margin: 0 auto 0;
     width: 600px;
-	color:#FFF
-	}
-.top{
-	margin-top: 50px;
-}	
-.form-area ul li{
-	border: 1px solid #00004d;
-	width: 100%;
-	margin: 0px;
-	height: 60px;
-} 
+   color:#FFF
+   }
+.form-area table {
+      
+       border: 2px solid #00004d;
+      margin-bottom: 15px;
+      margin-top: 50px;
+      border-collapse: collapse;
+      width: 100%;
+      
+   }
+.form-area table tr td {
+   
+      border-bottom: 2px solid #00004d;
+      background-color: #fff;
+       padding: 5px 10px;
+
+   }
 .input-text {
-	border: none;
-	height: 30px;
-	padding: 2px 0px;
-	width: 100%;
-	font-size: 15px;
-	background-color: #fff;
-}
+      
+      border: none;
+      height: 30px;
+      padding: 2px 0px;
+      width: 100%;
+      font-size: 15px;
+      background-color: #fff;
+   }
 
 input::-webkit-input-placeholder { 
-	color: #00004d; 
-}
+      color: #00004d; 
+   }
 
-	
+   
 .button-area {
-	text-align: center;
-	padding: 20px 0;
-	}
-	
+   text-align: center;
+   padding: 10px 0;
+   }
+   
 .btn-type-01 {
-		display: inline-block;
-		width: 50%;
-		font-size: 30px;
-		letter-spacing: -1px;
-		font-weight: bold;
-		height: 60px;
-		line-height: 55px;
-		text-decoration: none;
-		border-radius: 0;
-		background-color: #00004d;
-		color: #FFF;
-	}
+      display: inline-block;
+      width: 30%;
+      font-size: 30px;
+      letter-spacing: -1px;
+      font-weight: bold;
+      height: 60px;
+      line-height: 55px;
+      text-decoration: none;
+      border-radius: 0;
+      background-color: #00004d;
+      color: #FFF;
+   }
+ol{
+  line-height: 1.667em;
+}
+p{
+  font-size: 0.8em;
+  line-height: 1.667em;
+}
+.t fieldset{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   float: left;
+   height: 400px;
+   width: 80%;
+   margin: 0 auto;
+}
+.t img{
+   width: 500px;
+}
+.t ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 20px;
+}
+.t li{
+   float: left;
+   padding: 20px;
+}
+div{
+   margin: 0 auto;
+}
 .f18{
-	font-size: 18px;
+   font-size: 18px;
 }
-.f25{
-	font-size: 25px;
-}
-.fb{
-	font-weight: bold;
-}
-
 }
