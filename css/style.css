@@ -92,12 +92,12 @@ input::-webkit-input-placeholder {
 	
 .button-area {
 	text-align: center;
-	padding: 10px 0;
+	padding: 20px 0;
 	}
 	
 .btn-type-01 {
 		display: inline-block;
-		width: 30%;
+		width: 50%;
 		font-size: 30px;
 		letter-spacing: -1px;
 		font-weight: bold;
@@ -213,12 +213,12 @@ input::-webkit-input-placeholder {
 	
 .button-area {
 	text-align: center;
-	padding: 10px 0;
+	padding: 20px 0;
 	}
 	
 .btn-type-01 {
 		display: inline-block;
-		width: 30%;
+		width: 50%;
 		font-size: 30px;
 		letter-spacing: -1px;
 		font-weight: bold;
