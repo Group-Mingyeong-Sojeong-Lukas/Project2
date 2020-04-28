@@ -1,4 +1,4 @@
-@media screen{
+@media screen and (min-width: 650px){
 nav{
    text-align: center;
    background-color: #18184e;
