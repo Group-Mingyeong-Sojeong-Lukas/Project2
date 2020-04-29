@@ -47,7 +47,7 @@ p{
 
 .h{
    background-image: url(https://23fb88ad5ca22a1b4d32-e1951aed44f4258f5fd1721b94cf0277.ssl.cf5.rackcdn.com/IL077-ipad.jpg);
-   height: 130vh;
+   height: 150vh;
    background-size: cover;
 }
 .a{
@@ -68,8 +68,8 @@ div.container {
     width: 600px;
    color:#FFF
    }
-   /*
- .form-area{
+ 
+.form-area{
       border: 2px solid #00004d;
       margin-bottom: 15px;
       margin-top: 50px;
@@ -77,16 +77,17 @@ div.container {
       width: 100%;
      vertical-align: center;
 }
-   */
+ 
 .top{
    margin-top: 50px;
 }   
-.form-area li{
-   border: 1px solid #00004d;
-   width: 100%;
-   margin: 0px;
-   height: 60px;
-} 
+.form-area li {
+   
+      border-bottom: 2px solid #00004d;
+      background-color: #fff;
+      padding: 5px 10px;
+
+   }
 .input-text {
    border: none;
    height: 30px;
