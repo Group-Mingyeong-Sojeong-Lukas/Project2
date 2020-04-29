@@ -125,7 +125,7 @@ p{
   font-size: 0.8em;
   line-height: 1.667em;
 }
-t.fieldset{
+.t fieldset{
    vertical-align: center;
    margin-right: 10px;
    margin-left: 10px;
