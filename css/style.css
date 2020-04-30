@@ -151,16 +151,15 @@ p{
 
 .t img{
    width: 500px;
+   float: left;
+   padding: 20px;
 }
 .t ul{
    list-style-type: none;
    margin: 0;
    padding: 20px;
 }
-.t li{
-   float: left;
-   padding: 20px;
-}
+
 div{
    margin: 0 auto;
 }
