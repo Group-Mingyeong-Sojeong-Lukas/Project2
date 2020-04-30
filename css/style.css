@@ -4,17 +4,11 @@
 nav{
    text-align: center;
    background-color: #18184e;
-   margin: 0 auto;
-   margin-bottom: 40px;
-}
-
-span{
-   display: inline-block;
    text-align: center;
    position: relative;
    padding: 10px 50px;
    margin: 0 auto;
-   
+   font-size: 20px;
 }
 
 a{
