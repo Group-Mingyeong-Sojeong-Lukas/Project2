@@ -1,21 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald&display=swap');
+
 @media screen and (min-width: 650px){
 nav{
    text-align: center;
    background-color: #18184e;
-   margin: 0 auto;
-   margin-bottom: 40px;
-}
-
-span{
-   display: inline-block;
    text-align: center;
    position: relative;
    padding: 10px 50px;
    margin: 0 auto;
-   
+   font-size: 20px;
 }
+
+nav a{
+	padding: 10px;
+}
+
 a{
    color: #FFF;
+}
+
+a1{
+	font-size: 20px;
 }
 
 div{
@@ -25,14 +31,18 @@ h1{
    position: relative;
    text-align: center;
    margin-bottom: 15px;
+   font-family: 'Anton', san-serif;
+   letter-spacing: 2px;
 }
 
 h2{
 	text-align: center;
 	margin-bottom: 15px;
-	font-size: 28px;
+	font-size: 30px;
 	line-height: 40px;
+	font-family: 'Oswald', sans-serif;
 }
+
 img{
    position: relative;
    vertical-align: center;
@@ -70,17 +80,7 @@ div.container {
     width: 600px;
    color:#FFF
    }
-/*
-.form-area{
-      
-      border: 2px solid #00004d;
-      margin-bottom: 15px;
-      margin-top: 50px;
-      border-collapse: collapse;
-      width: 100%;
-	  vertical-align: center;
-}
-*/
+   
 .top{
    margin-top: 50px;
 }
@@ -134,11 +134,11 @@ p{
   font-size: 0.8em;
   line-height: 1.667em;
 }
+
 .t{
-	
-   margin-bottom: 20px;
-	
+   margin-bottom: 20px;	
 }
+
 .t.fieldset{
    vertical-align: center;
    list-style-type: none;
@@ -168,7 +168,8 @@ div{
    font-weight: bold;
 }
 .f18{
-   font-size: 28px;
+   font-size: 25px;
+   font-family: 'Oswald', sans-serif;
 }
 
 a.a1{
@@ -180,3 +181,4 @@ a.a1{
 	
 	}
 }
+
